@@ -1,0 +1,7 @@
+version : '1.1'
+services :
+  web:
+     build: .
+     port:
+        -"8000:80"
+     
