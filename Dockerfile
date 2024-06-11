@@ -1,3 +1,3 @@
 FROM nginx:stable-alpine3.19-perl
-COPY . /usr/share/nginx/www
+COPY . usr/share/nginx/html
 EXPOSE 8000
