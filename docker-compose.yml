@@ -2,6 +2,6 @@ version : '3.3'
 services :
   web:
      build: .
-     port:
+     ports:
         -"8000:80"
      
