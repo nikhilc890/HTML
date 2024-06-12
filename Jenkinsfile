@@ -19,7 +19,7 @@ pipeline {
             steps{
                 
                 sh 'docker tag test nikhilc890/test:1'
-                sh 'docker login -u nikhilc890 -p Shree@890'
+                sh 'docker login -u nikhilc890 -p ''
                 sh'docker push nikhilc890/test:1 '
                 sh 'docker compose down && docker compose up -d'
             }
