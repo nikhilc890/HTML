@@ -3,4 +3,4 @@ services:
   web:
     image: nikhilc890/test:1
     ports:
-      - "8000:80"  # Notice the indentation under "ports"
+      - "9000:80"  # Notice the indentation under "ports"
