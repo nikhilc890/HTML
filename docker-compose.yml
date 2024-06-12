@@ -1,6 +1,6 @@
 
 services:
   web:
-    build: .
+    imge: nikhilc890/test:1
     ports:
       - "8000:80"  # Notice the indentation under "ports"
